@@ -5,7 +5,7 @@ require_relative 'lib/game'
 require_relative 'lib/player'
 
 player1 = Player.new("Josianne BALASCO")
-player2 = HumanPlayer.new("José BEAUVAIS")
+player2 = HumanPlayer.new("José de BEAUVAIS")
 
 while player1.life_points > 0 && player2.life_points > 0
   puts "=" * 50
